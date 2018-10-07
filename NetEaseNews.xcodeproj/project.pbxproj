@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DA86B27216A6B8A0068102A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DA86B26216A6B8A0068102A /* Assets.xcassets */; };
+		8DA86B2A216A6B8A0068102A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA86B28216A6B8A0068102A /* LaunchScreen.storyboard */; };
+		8DA86B35216A6B8A0068102A /* NetEaseNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA86B34216A6B8A0068102A /* NetEaseNewsTests.swift */; };
+		8DA86B40216A6B8A0068102A /* NetEaseNewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA86B3F216A6B8A0068102A /* NetEaseNewsUITests.swift */; };
+		8DA86B4F216A6BE70068102A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA86B4E216A6BE60068102A /* AppDelegate.swift */; };
+		8DA86B90216A6C370068102A /* SGPageTitleViewConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA86B84216A6C370068102A /* SGPageTitleViewConfigure.swift */; };
+		8DA86B91216A6C370068102A /* SGPageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA86B85216A6C370068102A /* SGPageTitleView.swift */; };
+		8DA86B92216A6C370068102A /* SGPageContentCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA86B86216A6C370068102A /* SGPageContentCollectionView.swift */; };
+		8DA86B93216A6C370068102A /* SGPageViewPopGestureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA86B87216A6C370068102A /* SGPageViewPopGestureVC.swift */; };
+		8DA86B94216A6C370068102A /* SGPageContentScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA86B88216A6C370068102A /* SGPageContentScrollView.swift */; };
+		8DA86B97216A6C780068102A /* NENTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA86B96216A6C780068102A /* NENTabBarController.swift */; };
+		8DA86B99216A6D610068102A /* NENHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA86B98216A6D610068102A /* NENHomeViewController.swift */; };
+		8DA86B9B216A6E9D0068102A /* NENVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA86B9A216A6E9D0068102A /* NENVideoViewController.swift */; };
+		8DA86B9D216A6EE20068102A /* NENProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA86B9C216A6EE20068102A /* NENProfileViewController.swift */; };
+		8DA86B9F216A6F0B0068102A /* NENTalkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA86B9E216A6F0B0068102A /* NENTalkViewController.swift */; };
+		8DA86BA1216A709B0068102A /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA86BA0216A709B0068102A /* UIBarButtonItem+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DA86B31216A6B8A0068102A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DA86B14216A6B870068102A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DA86B1B216A6B870068102A;
+			remoteInfo = NetEaseNews;
+		};
+		8DA86B3C216A6B8A0068102A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DA86B14216A6B870068102A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DA86B1B216A6B870068102A;
+			remoteInfo = NetEaseNews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8DA86B1C216A6B870068102A /* NetEaseNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetEaseNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA86B26216A6B8A0068102A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DA86B29216A6B8A0068102A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8DA86B2B216A6B8A0068102A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DA86B30216A6B8A0068102A /* NetEaseNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetEaseNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA86B34216A6B8A0068102A /* NetEaseNewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetEaseNewsTests.swift; sourceTree = "<group>"; };
+		8DA86B36216A6B8A0068102A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DA86B3B216A6B8A0068102A /* NetEaseNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetEaseNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA86B3F216A6B8A0068102A /* NetEaseNewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetEaseNewsUITests.swift; sourceTree = "<group>"; };
+		8DA86B41216A6B8A0068102A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DA86B4E216A6BE60068102A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8DA86B84216A6C370068102A /* SGPageTitleViewConfigure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGPageTitleViewConfigure.swift; sourceTree = "<group>"; };
+		8DA86B85216A6C370068102A /* SGPageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGPageTitleView.swift; sourceTree = "<group>"; };
+		8DA86B86216A6C370068102A /* SGPageContentCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGPageContentCollectionView.swift; sourceTree = "<group>"; };
+		8DA86B87216A6C370068102A /* SGPageViewPopGestureVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGPageViewPopGestureVC.swift; sourceTree = "<group>"; };
+		8DA86B88216A6C370068102A /* SGPageContentScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGPageContentScrollView.swift; sourceTree = "<group>"; };
+		8DA86B96216A6C780068102A /* NENTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NENTabBarController.swift; sourceTree = "<group>"; };
+		8DA86B98216A6D610068102A /* NENHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NENHomeViewController.swift; sourceTree = "<group>"; };
+		8DA86B9A216A6E9D0068102A /* NENVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NENVideoViewController.swift; sourceTree = "<group>"; };
+		8DA86B9C216A6EE20068102A /* NENProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NENProfileViewController.swift; sourceTree = "<group>"; };
+		8DA86B9E216A6F0B0068102A /* NENTalkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NENTalkViewController.swift; sourceTree = "<group>"; };
+		8DA86BA0216A709B0068102A /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DA86B19216A6B870068102A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA86B2D216A6B8A0068102A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA86B38216A6B8A0068102A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DA86B13216A6B870068102A = {
+			isa = PBXGroup;
+			children = (
+				8DA86B1E216A6B870068102A /* NetEaseNews */,
+				8DA86B33216A6B8A0068102A /* NetEaseNewsTests */,
+				8DA86B3E216A6B8A0068102A /* NetEaseNewsUITests */,
+				8DA86B1D216A6B870068102A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DA86B1D216A6B870068102A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DA86B1C216A6B870068102A /* NetEaseNews.app */,
+				8DA86B30216A6B8A0068102A /* NetEaseNewsTests.xctest */,
+				8DA86B3B216A6B8A0068102A /* NetEaseNewsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DA86B1E216A6B870068102A /* NetEaseNews */ = {
+			isa = PBXGroup;
+			children = (
+				8DA86B4D216A6BC70068102A /* AppDelegate */,
+				8DA86B89216A6C370068102A /* Frame */,
+				8DA86B75216A6C370068102A /* Module */,
+				8DA86B73216A6C370068102A /* Category */,
+				8DA86B74216A6C370068102A /* Network */,
+				8DA86B82216A6C370068102A /* ThirdParty */,
+				8DA86B26216A6B8A0068102A /* Assets.xcassets */,
+				8DA86B28216A6B8A0068102A /* LaunchScreen.storyboard */,
+				8DA86B2B216A6B8A0068102A /* Info.plist */,
+			);
+			path = NetEaseNews;
+			sourceTree = "<group>";
+		};
+		8DA86B33216A6B8A0068102A /* NetEaseNewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DA86B34216A6B8A0068102A /* NetEaseNewsTests.swift */,
+				8DA86B36216A6B8A0068102A /* Info.plist */,
+			);
+			path = NetEaseNewsTests;
+			sourceTree = "<group>";
+		};
+		8DA86B3E216A6B8A0068102A /* NetEaseNewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8DA86B3F216A6B8A0068102A /* NetEaseNewsUITests.swift */,
+				8DA86B41216A6B8A0068102A /* Info.plist */,
+			);
+			path = NetEaseNewsUITests;
+			sourceTree = "<group>";
+		};
+		8DA86B4D216A6BC70068102A /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				8DA86B4E216A6BE60068102A /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		8DA86B73216A6C370068102A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				8DA86BA0216A709B0068102A /* UIBarButtonItem+Extension.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		8DA86B74216A6C370068102A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		8DA86B75216A6C370068102A /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				8DA86B76216A6C370068102A /* Home */,
+				8DA86B79216A6C370068102A /* Video */,
+				8DA86B7F216A6C370068102A /* Talk */,
+				8DA86B7C216A6C370068102A /* Profile */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		8DA86B76216A6C370068102A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8DA86B77216A6C370068102A /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8DA86B77216A6C370068102A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8DA86B98216A6D610068102A /* NENHomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8DA86B79216A6C370068102A /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				8DA86B7A216A6C370068102A /* Controller */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		8DA86B7A216A6C370068102A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8DA86B9A216A6E9D0068102A /* NENVideoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8DA86B7C216A6C370068102A /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				8DA86B7D216A6C370068102A /* Controller */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		8DA86B7D216A6C370068102A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8DA86B9C216A6EE20068102A /* NENProfileViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8DA86B7F216A6C370068102A /* Talk */ = {
+			isa = PBXGroup;
+			children = (
+				8DA86B80216A6C370068102A /* Controller */,
+			);
+			path = Talk;
+			sourceTree = "<group>";
+		};
+		8DA86B80216A6C370068102A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8DA86B9E216A6F0B0068102A /* NENTalkViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8DA86B82216A6C370068102A /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				8DA86B83216A6C370068102A /* SGPagingView-Swift */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		8DA86B83216A6C370068102A /* SGPagingView-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				8DA86B84216A6C370068102A /* SGPageTitleViewConfigure.swift */,
+				8DA86B85216A6C370068102A /* SGPageTitleView.swift */,
+				8DA86B86216A6C370068102A /* SGPageContentCollectionView.swift */,
+				8DA86B87216A6C370068102A /* SGPageViewPopGestureVC.swift */,
+				8DA86B88216A6C370068102A /* SGPageContentScrollView.swift */,
+			);
+			path = "SGPagingView-Swift";
+			sourceTree = "<group>";
+		};
+		8DA86B89216A6C370068102A /* Frame */ = {
+			isa = PBXGroup;
+			children = (
+				8DA86B8A216A6C370068102A /* Controller */,
+			);
+			path = Frame;
+			sourceTree = "<group>";
+		};
+		8DA86B8A216A6C370068102A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8DA86B96216A6C780068102A /* NENTabBarController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DA86B1B216A6B870068102A /* NetEaseNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DA86B44216A6B8A0068102A /* Build configuration list for PBXNativeTarget "NetEaseNews" */;
+			buildPhases = (
+				8DA86B18216A6B870068102A /* Sources */,
+				8DA86B19216A6B870068102A /* Frameworks */,
+				8DA86B1A216A6B870068102A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetEaseNews;
+			productName = NetEaseNews;
+			productReference = 8DA86B1C216A6B870068102A /* NetEaseNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DA86B2F216A6B8A0068102A /* NetEaseNewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DA86B47216A6B8A0068102A /* Build configuration list for PBXNativeTarget "NetEaseNewsTests" */;
+			buildPhases = (
+				8DA86B2C216A6B8A0068102A /* Sources */,
+				8DA86B2D216A6B8A0068102A /* Frameworks */,
+				8DA86B2E216A6B8A0068102A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DA86B32216A6B8A0068102A /* PBXTargetDependency */,
+			);
+			name = NetEaseNewsTests;
+			productName = NetEaseNewsTests;
+			productReference = 8DA86B30216A6B8A0068102A /* NetEaseNewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8DA86B3A216A6B8A0068102A /* NetEaseNewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DA86B4A216A6B8A0068102A /* Build configuration list for PBXNativeTarget "NetEaseNewsUITests" */;
+			buildPhases = (
+				8DA86B37216A6B8A0068102A /* Sources */,
+				8DA86B38216A6B8A0068102A /* Frameworks */,
+				8DA86B39216A6B8A0068102A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DA86B3D216A6B8A0068102A /* PBXTargetDependency */,
+			);
+			name = NetEaseNewsUITests;
+			productName = NetEaseNewsUITests;
+			productReference = 8DA86B3B216A6B8A0068102A /* NetEaseNewsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DA86B14216A6B870068102A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NEN;
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = kingsic;
+				TargetAttributes = {
+					8DA86B1B216A6B870068102A = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					8DA86B2F216A6B8A0068102A = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 8DA86B1B216A6B870068102A;
+					};
+					8DA86B3A216A6B8A0068102A = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 8DA86B1B216A6B870068102A;
+					};
+				};
+			};
+			buildConfigurationList = 8DA86B17216A6B870068102A /* Build configuration list for PBXProject "NetEaseNews" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DA86B13216A6B870068102A;
+			productRefGroup = 8DA86B1D216A6B870068102A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DA86B1B216A6B870068102A /* NetEaseNews */,
+				8DA86B2F216A6B8A0068102A /* NetEaseNewsTests */,
+				8DA86B3A216A6B8A0068102A /* NetEaseNewsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DA86B1A216A6B870068102A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DA86B2A216A6B8A0068102A /* LaunchScreen.storyboard in Resources */,
+				8DA86B27216A6B8A0068102A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA86B2E216A6B8A0068102A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA86B39216A6B8A0068102A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DA86B18216A6B870068102A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DA86B4F216A6BE70068102A /* AppDelegate.swift in Sources */,
+				8DA86B93216A6C370068102A /* SGPageViewPopGestureVC.swift in Sources */,
+				8DA86B9F216A6F0B0068102A /* NENTalkViewController.swift in Sources */,
+				8DA86B99216A6D610068102A /* NENHomeViewController.swift in Sources */,
+				8DA86BA1216A709B0068102A /* UIBarButtonItem+Extension.swift in Sources */,
+				8DA86B94216A6C370068102A /* SGPageContentScrollView.swift in Sources */,
+				8DA86B92216A6C370068102A /* SGPageContentCollectionView.swift in Sources */,
+				8DA86B9D216A6EE20068102A /* NENProfileViewController.swift in Sources */,
+				8DA86B9B216A6E9D0068102A /* NENVideoViewController.swift in Sources */,
+				8DA86B90216A6C370068102A /* SGPageTitleViewConfigure.swift in Sources */,
+				8DA86B91216A6C370068102A /* SGPageTitleView.swift in Sources */,
+				8DA86B97216A6C780068102A /* NENTabBarController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA86B2C216A6B8A0068102A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DA86B35216A6B8A0068102A /* NetEaseNewsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA86B37216A6B8A0068102A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DA86B40216A6B8A0068102A /* NetEaseNewsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DA86B32216A6B8A0068102A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DA86B1B216A6B870068102A /* NetEaseNews */;
+			targetProxy = 8DA86B31216A6B8A0068102A /* PBXContainerItemProxy */;
+		};
+		8DA86B3D216A6B8A0068102A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DA86B1B216A6B870068102A /* NetEaseNews */;
+			targetProxy = 8DA86B3C216A6B8A0068102A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8DA86B28216A6B8A0068102A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DA86B29216A6B8A0068102A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DA86B42216A6B8A0068102A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8DA86B43216A6B8A0068102A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DA86B45216A6B8A0068102A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NetEaseNews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NetEaseNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DA86B46216A6B8A0068102A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NetEaseNews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NetEaseNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8DA86B48216A6B8A0068102A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NetEaseNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NetEaseNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetEaseNews.app/NetEaseNews";
+			};
+			name = Debug;
+		};
+		8DA86B49216A6B8A0068102A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NetEaseNewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NetEaseNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetEaseNews.app/NetEaseNews";
+			};
+			name = Release;
+		};
+		8DA86B4B216A6B8A0068102A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NetEaseNewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NetEaseNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NetEaseNews;
+			};
+			name = Debug;
+		};
+		8DA86B4C216A6B8A0068102A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NetEaseNewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NetEaseNewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NetEaseNews;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DA86B17216A6B870068102A /* Build configuration list for PBXProject "NetEaseNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DA86B42216A6B8A0068102A /* Debug */,
+				8DA86B43216A6B8A0068102A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DA86B44216A6B8A0068102A /* Build configuration list for PBXNativeTarget "NetEaseNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DA86B45216A6B8A0068102A /* Debug */,
+				8DA86B46216A6B8A0068102A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DA86B47216A6B8A0068102A /* Build configuration list for PBXNativeTarget "NetEaseNewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DA86B48216A6B8A0068102A /* Debug */,
+				8DA86B49216A6B8A0068102A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DA86B4A216A6B8A0068102A /* Build configuration list for PBXNativeTarget "NetEaseNewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DA86B4B216A6B8A0068102A /* Debug */,
+				8DA86B4C216A6B8A0068102A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DA86B14216A6B870068102A /* Project object */;
+}
