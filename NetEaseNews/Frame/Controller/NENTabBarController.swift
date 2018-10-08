@@ -24,7 +24,7 @@ class NENTabBarController: UITabBarController {
         childVC.tabBarItem.title = title
         childVC.tabBarItem.image = UIImage(named: imageName)
         
-        let childVCNav = UINavigationController(rootViewController: childVC)
+        let childVCNav = NENNavigationController(rootViewController: childVC)
         addChild(childVCNav)
     }
 

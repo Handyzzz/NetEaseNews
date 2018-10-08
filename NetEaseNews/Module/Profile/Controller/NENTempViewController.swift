@@ -1,5 +1,5 @@
 //
-//  NENProfileViewController.swift
+//  NENTempViewController.swift
 //  NetEaseNews
 //
 //  Created by kingsic on 2018/10/8.
@@ -8,19 +8,16 @@
 
 import UIKit
 
-class NENProfileViewController: UIViewController {
+class NENTempViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        view.backgroundColor = UIColor.orange
         // Do any additional setup after loading the view.
-        
-        view.backgroundColor = UIColor.green
     }
     
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        navigationController?.pushViewController(NENTempViewController(), animated: true)
-    }
+
     /*
     // MARK: - Navigation
 

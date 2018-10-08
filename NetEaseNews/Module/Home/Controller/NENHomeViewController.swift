@@ -30,12 +30,20 @@ extension NENHomeViewController {
     private func setupNavigationBar() {
         // 设置导航栏背景图
         navigationController?.navigationBar.setBackgroundImage(UIImage(named: "navigation_image_red_375x64_"), for: .default)
-        // 设置 left
+        // 状态栏字体为白色，状态栏和导航栏背景为黑色
+        navigationController?.navigationBar.barStyle = .black
+        
+        // 设置 leftBarButtonItem
         navigationItem.leftBarButtonItem = UIBarButtonItem(target: self, acrion: #selector(leftBarButtonItem_action), imageName: "navigation_logo_48x23_")
+        // 设置 rightBarButtonItem
+        navigationItem.rightBarButtonItem = UIBarButtonItem(target: self, acrion: #selector(rightBarButtonItem_action), imageName: "nav_live_room_image_32x22_")
     }
     
     @objc private func leftBarButtonItem_action() {
-    
+        print("leftBarButtonItem_action")
+    }
+    @objc private func rightBarButtonItem_action() {
+        print("rightBarButtonItem_action")
     }
 }
 
@@ -73,7 +81,7 @@ extension NENHomeViewController {
         view.addSubview(pageContentScrollView!)
     }
 }
-
+// MARK: - - 设置 SGPagingView 代理方法
 extension NENHomeViewController: SGPageTitleViewDelegate, SGPageContentScrollViewDelegate {
     func pageTitleView(pageTitleView: SGPageTitleView, index: Int) {
         pageContentScrollView?.setPageContentScrollView(index: index)

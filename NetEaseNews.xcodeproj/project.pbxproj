@@ -23,6 +23,10 @@
 		8DA86B9D216A6EE20068102A /* NENProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA86B9C216A6EE20068102A /* NENProfileViewController.swift */; };
 		8DA86B9F216A6F0B0068102A /* NENTalkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA86B9E216A6F0B0068102A /* NENTalkViewController.swift */; };
 		8DA86BA1216A709B0068102A /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA86BA0216A709B0068102A /* UIBarButtonItem+Extension.swift */; };
+		8DA86BA9216B73370068102A /* NENVideoNavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA86BA8216B73370068102A /* NENVideoNavigationBarView.swift */; };
+		8DA86BAB216B77B00068102A /* NENNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA86BAA216B77B00068102A /* NENNavigationController.swift */; };
+		8DA86BAD216B87D40068102A /* NENTempViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA86BAC216B87D40068102A /* NENTempViewController.swift */; };
+		8DA86BB0216B9A1D0068102A /* NENConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA86BAF216B9A1D0068102A /* NENConst.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +69,10 @@
 		8DA86B9C216A6EE20068102A /* NENProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NENProfileViewController.swift; sourceTree = "<group>"; };
 		8DA86B9E216A6F0B0068102A /* NENTalkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NENTalkViewController.swift; sourceTree = "<group>"; };
 		8DA86BA0216A709B0068102A /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
+		8DA86BA8216B73370068102A /* NENVideoNavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NENVideoNavigationBarView.swift; sourceTree = "<group>"; };
+		8DA86BAA216B77B00068102A /* NENNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NENNavigationController.swift; sourceTree = "<group>"; };
+		8DA86BAC216B87D40068102A /* NENTempViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NENTempViewController.swift; sourceTree = "<group>"; };
+		8DA86BAF216B9A1D0068102A /* NENConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NENConst.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,8 +127,10 @@
 				8DA86B89216A6C370068102A /* Frame */,
 				8DA86B75216A6C370068102A /* Module */,
 				8DA86B73216A6C370068102A /* Category */,
+				8DA86BA2216B45510068102A /* Custom */,
 				8DA86B74216A6C370068102A /* Network */,
 				8DA86B82216A6C370068102A /* ThirdParty */,
+				8DA86BAE216B99960068102A /* Configuration */,
 				8DA86B26216A6B8A0068102A /* Assets.xcassets */,
 				8DA86B28216A6B8A0068102A /* LaunchScreen.storyboard */,
 				8DA86B2B216A6B8A0068102A /* Info.plist */,
@@ -224,6 +234,7 @@
 			isa = PBXGroup;
 			children = (
 				8DA86B9C216A6EE20068102A /* NENProfileViewController.swift */,
+				8DA86BAC216B87D40068102A /* NENTempViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -276,8 +287,33 @@
 			isa = PBXGroup;
 			children = (
 				8DA86B96216A6C780068102A /* NENTabBarController.swift */,
+				8DA86BAA216B77B00068102A /* NENNavigationController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		8DA86BA2216B45510068102A /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				8DA86BA7216B72FB0068102A /* NavigationBarView */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		8DA86BA7216B72FB0068102A /* NavigationBarView */ = {
+			isa = PBXGroup;
+			children = (
+				8DA86BA8216B73370068102A /* NENVideoNavigationBarView.swift */,
+			);
+			path = NavigationBarView;
+			sourceTree = "<group>";
+		};
+		8DA86BAE216B99960068102A /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				8DA86BAF216B9A1D0068102A /* NENConst.swift */,
+			);
+			path = Configuration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -412,8 +448,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DA86B4F216A6BE70068102A /* AppDelegate.swift in Sources */,
+				8DA86BB0216B9A1D0068102A /* NENConst.swift in Sources */,
+				8DA86BAD216B87D40068102A /* NENTempViewController.swift in Sources */,
 				8DA86B93216A6C370068102A /* SGPageViewPopGestureVC.swift in Sources */,
 				8DA86B9F216A6F0B0068102A /* NENTalkViewController.swift in Sources */,
+				8DA86BA9216B73370068102A /* NENVideoNavigationBarView.swift in Sources */,
 				8DA86B99216A6D610068102A /* NENHomeViewController.swift in Sources */,
 				8DA86BA1216A709B0068102A /* UIBarButtonItem+Extension.swift in Sources */,
 				8DA86B94216A6C370068102A /* SGPageContentScrollView.swift in Sources */,
@@ -423,6 +462,7 @@
 				8DA86B90216A6C370068102A /* SGPageTitleViewConfigure.swift in Sources */,
 				8DA86B91216A6C370068102A /* SGPageTitleView.swift in Sources */,
 				8DA86B97216A6C780068102A /* NENTabBarController.swift in Sources */,
+				8DA86BAB216B77B00068102A /* NENNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
