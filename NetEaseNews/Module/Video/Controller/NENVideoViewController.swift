@@ -44,8 +44,7 @@ extension NENVideoViewController {
 // MARK: - - 设置 SGPagingView
 extension NENVideoViewController {
     private func setupSGPagingView() {
-        let titles = ["推荐", "小视频", "榜单", "超级IP季", "播单", "搞笑", "影视", "综艺", "音乐", "现场", "黑科技", "小品"]
-        //, "萌物", "w军武", "猎奇", "二次元", "涨姿势"]
+        let titles = ["推荐", "小视频", "榜单", "超级IP季", "播单", "搞笑", "影视", "综艺", "音乐", "现场", "黑科技", "小品", "萌物", "w军武", "猎奇", "二次元", "涨姿势"]
         let configure = SGPageTitleViewConfigure()
         configure.showIndicator = false
         configure.showBottomSeparator = false
@@ -70,7 +69,11 @@ extension NENVideoViewController {
         fiveVC.view.backgroundColor = UIColor.orange
         let sixVC = UIViewController()
         sixVC.view.backgroundColor = UIColor.red
-        let childVCs = [oneVC, twoVC, threeVC, fourVC, oneVC, twoVC, threeVC, fourVC, oneVC, twoVC, threeVC, fourVC]
+        let sevenVC = UIViewController()
+        sevenVC.view.backgroundColor = UIColor.orange
+        let eightVC = UIViewController()
+        eightVC.view.backgroundColor = UIColor.red
+        let childVCs = [oneVC, twoVC, threeVC, fourVC, oneVC, twoVC, threeVC, fourVC, oneVC, twoVC, threeVC, fourVC, fiveVC, twoVC, sixVC, sevenVC, eightVC]
         
         let contentViewHeight = view.frame.size.height - self.pageTitleView!.frame.maxY
         let contentRect = CGRect(x: 0, y: (pageTitleView?.frame.maxY)!, width: view.frame.size.width, height: contentViewHeight)
